@@ -1,0 +1,46 @@
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+
+# ---- IDE ----
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ---- Java/Eclipse/Maven/Gradle (backend) ----
+/target/
+.buildpath
+.project
+.settings/
+.classpath
+.gradle/
+build/
+out/
+*.log
+
+# If you NEED to keep Eclipse metadata, remove these two lines:
+# .project
+# .classpath
+
+# ---- Node/Frontend ----
+node_modules/
+dist/
+build/
+.cache/
+.next/
+.nuxt/
+.svelte-kit/
+coverage/
+
+# Env files (keep an example if you like)
+.env
+.env.*
+!env.example
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
