@@ -1,0 +1,40 @@
+/* AppointmentList.css */
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  color: white;
+}
+
+/* Variants */
+.btn-primary {
+  background-color: #2563eb; /* blue */
+}
+.btn-primary:hover {
+  background-color: #1e40af;
+}
+
+.btn-success {
+  background-color: #16a34a; /* green */
+}
+.btn-success:hover {
+  background-color: #15803d;
+}
+
+.btn-warning {
+  background-color: #f59e0b; /* yellow */
+}
+.btn-warning:hover {
+  background-color: #b45309;
+}
+
+.btn-danger {
+  background-color: #dc2626; /* red */
+}
+.btn-danger:hover {
+  background-color: #b91c1c;
+}
